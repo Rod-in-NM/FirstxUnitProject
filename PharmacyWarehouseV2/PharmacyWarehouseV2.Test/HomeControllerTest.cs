@@ -17,8 +17,8 @@ namespace PharmacyWarehouseV2.Test
 
             var controller = new HomeController(null);
 
-            var zero = 0;
-            var failure = 1 / zero;
+            //var zero = 0;               //I put this in just to ensure that an error would occur
+            //var failure = 1 / zero;
 
             //act
             var result = controller.Index();
